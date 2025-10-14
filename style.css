@@ -741,7 +741,7 @@ i.fa {
 }
 
 .contact-item a {
-    color: ghostwhite;
+    color: var(--code-function);
     text-decoration: none;
 }
 
@@ -1004,4 +1004,5 @@ i.fa {
 .syntax-highlight .variable { color: var(--code-variable); }
 .syntax-highlight .comment { color: var(--code-comment); }
 .syntax-highlight .operator { color: var(--accent-primary); }
+
 .syntax-highlight .bracket { color: var(--code-bracket); }
