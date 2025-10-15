@@ -81,6 +81,16 @@ function scrollToSection(index) {
     }, 300);
 }
 
+//download resume
+function downloadResume() {
+  const link = document.createElement('a');
+  link.href = 'assets/JOSEPH (1).pdf';
+  link.download = 'assets/JOSEPH (1).pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
 function animateSkillBars() {
     const skillBars = document.querySelectorAll('.skill-progress');
     skillBars.forEach(bar => {
@@ -130,4 +140,5 @@ function typeWriter(element, text, speed = 100) {
         }
     }
     type();
+
 }
