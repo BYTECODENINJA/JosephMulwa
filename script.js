@@ -84,7 +84,7 @@ function scrollToSection(index) {
 //download resume
 function downloadResume() {
   const link = document.createElement('a');
-  link.href = 'assets/JOSEPHRESUME.pdf';
+  link.href = 'assets/JOSEPHRESUME (3).pdf';
   link.download = 'JOSEPHRESUME (3).pdf';
   document.body.appendChild(link);
   link.click();
@@ -142,8 +142,3 @@ function typeWriter(element, text, speed = 100) {
     type();
 
 }
-
-
-
-
-
