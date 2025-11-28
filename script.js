@@ -84,8 +84,8 @@ function scrollToSection(index) {
 //download resume
 function downloadResume() {
   const link = document.createElement('a');
-  link.href = 'assets/MYRESUME.pdf';
-  link.download = 'MYRESUME.pdf';
+  link.href = 'assets/JOSEPH.pdf';
+  link.download = 'JOSEPH.pdf';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
